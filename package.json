@@ -1,0 +1,22 @@
+{
+  "name": "the-complete-node.js-developer-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dludwin/The-Complete-Node.js-Developer-Course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dludwin/The-Complete-Node.js-Developer-Course/issues"
+  },
+  "homepage": "https://github.com/dludwin/The-Complete-Node.js-Developer-Course#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
