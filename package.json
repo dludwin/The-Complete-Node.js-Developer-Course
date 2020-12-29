@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dludwin/The-Complete-Node.js-Developer-Course#readme",
   "dependencies": {
-    "lodash": "^4.17.20"
+    "lodash": "^4.17.20",
+    "yargs": "^16.2.0"
   }
 }
