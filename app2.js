@@ -10,9 +10,11 @@ const notes = require('./notes2.js');
 // node app2.js add/remove/list
 const argv = yargs.argv;
 
-var command = argv._[0]; // process.argv[2];
+var command = argv._[0]; // process.argv[2];     _ is a property that holds all values
 console.log('Command: ', command);
+
 //console.log('Process', process.argv);
+
 console.log('Yargs', argv); // node app2.js add --title=secrets
 console.log(argv.title); // node app2.js add --title=secrets --body="This is my secret"
 

@@ -1,9 +1,9 @@
 console.log('Starting app.js'); // type in terminal: node app.js
 
-const fs = require('fs'); //Build in node module.  no need of manipulating, const.
+const fs = require('fs'); //Build in node module.  no need of manipulating, const. FileSystem
 // require loads the module.
-const os = require('os'); // os = operating system functions
-const notes = require('./notes.js'); // Locat require. That file will run
+const os = require('os'); // os = OperatingSystem functions
+const notes = require('./notes.js'); // Local require. That file will run
 const _ = require('lodash'); // set of handy utilities   https://lodash.com/docs/  clrl + f  _.isString
 
 var res = notes.add(2, -1);
@@ -22,7 +22,6 @@ console.log(filteredArray);
 	}
 }); */
 /*
-
 fs.appendFileSync(
 	'greeting.txt',
 	`Hello ${user.username}! You are ${notes.age}.`
